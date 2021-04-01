@@ -57,11 +57,12 @@ public class EX_4StarKiJiang {
     
 		getRnd(lot, 1, 9, 4);	//呼叫靜態方法getRnd
 		
-    System.out.println("本期四星彩開獎號碼如下：");
+    System.out.println("Lotto number is:");
     
 		for (int i = 0; i < lot.length; i++)
 			System.out.print("  " + lot[i]);
 	}
+}
 ```
 ```
 使用產生1-100的亂數
